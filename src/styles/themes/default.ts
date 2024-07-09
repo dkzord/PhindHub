@@ -1,5 +1,6 @@
 export const defaultTheme = {
   color: {
+    black: '#000000',
     yellow: '#DBAC2C',
     yellowDark: '#C47F17',
     yellowLight: '#F1E9C9',
@@ -39,6 +40,12 @@ export const defaultTheme = {
     tag: '700 0.625rem/130% "Roboto", sans-serif',
     buttonG: '700 0.875rem/160% "Roboto", sans-serif',
     buttonM: '400 0.75rem/160% "Roboto", sans-serif',
+  },
+  weight: {
+    regular: 400,
+    medium: 500,
+    bold: 700,
+    extraBold: 800,
   },
 
   white: '#fff',
